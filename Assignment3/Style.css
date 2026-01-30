@@ -1,0 +1,50 @@
+h1{
+    color: red;
+    background-color: rgb(95,95,95);
+}
+
+h2{
+    color: darkred;
+    background-color:rgb(95, 95, 95);
+}
+
+h3,h4,h5,h6,p,li{
+    color: rgb(95, 95, 95);
+    background-color: rgb(197, 145, 145);
+}
+
+#director{
+    color: cyan;
+    background-color: red;
+}
+
+.classtitle{
+background-color: black;
+color: white;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: yellow;
+}   
+
+a{
+    text-decoration: none;
+}
+
+.masters{
+    background-color: rgb(247, 0, 255);
+    color: purple;
+}
+
+.disclaimer{
+    background-color: black;
+    color: white;
+}
