@@ -13,7 +13,7 @@ h3,h4,h5,h6,p,li{
     background-color: rgb(197, 145, 145);
 }
 
-#director{
+.director{
     color: cyan;
     background-color: red;
 }
@@ -47,4 +47,8 @@ a{
 .disclaimer{
     background-color: black;
     color: white;
+}
+
+#major {
+    color: purple;
 }
