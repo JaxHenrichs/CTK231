@@ -1,0 +1,26 @@
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+h1{
+    color: purple;
+    background-color: #ffff00;
+}
+
+p{
+    color: red;
+}
+
+.makeitblue{
+    color: blue;
+}
+
+#special{
+    background-color:rgb(82, 58, 27)
+}
