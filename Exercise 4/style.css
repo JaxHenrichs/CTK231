@@ -1,0 +1,51 @@
+.toppurple{
+background-color: #969FEA;
+}
+
+.toppurple h1{
+color: white;
+}
+
+a{
+color: green;
+text-decoration: none;
+}
+
+a:hover{
+color: red;
+text-decoration: underline;
+}
+
+h1{
+    color: blue;
+}
+
+.doctor{
+    color: orange;
+    font-weight: bold;
+}
+
+h2{
+    background-color: yellow;
+}
+
+#allred{
+    color: red;
+}
+
+h3{
+    color: yellow;
+    background-color: rgb(18, 97, 18);
+}
+
+#greenbg{
+    background-color: rgb(127, 161, 105);
+}
+
+h4{
+    color: red;
+}
+
+.bottomyellow{
+    background-color: yellow;
+}
