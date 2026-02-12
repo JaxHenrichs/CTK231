@@ -1,0 +1,71 @@
+h1{
+    font-family: Helvetica, Sans-Serif;
+    font-weight: normal;
+}
+
+h2{
+    font-family: Helvetica, Sans-Serif;
+    font-weight: bold;
+}
+
+.nav{
+    display: inline-block;
+    padding: 0px;
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav li:hover{
+    background-color: lightblue;
+}
+
+.nav li{
+    text-align: left;
+    background-color: darkblue;
+    padding: 15px 25px 15px 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 150px;
+}
+
+.just{
+    text-align: justify;
+}
+
+.just a:link{
+    color:blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.just a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.foot{
+    background-color: darkblue;
+    border: 10px solid rgb(255, 255, 255);
+    color: white;
+    font-family: Verdana, Sans-Serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding: 25px;
+}
+
+#bottombord{
+    border-bottom: 5px solid black;
+}
+
+body {
+    background: url('a5bg.png') center center repeat;
+}
+
+.whiteBG{
+    background-color: white;
+    padding: 25px;
+}
