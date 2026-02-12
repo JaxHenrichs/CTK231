@@ -35,7 +35,7 @@ h2{
     text-align: justify;
 }
 
-.just a:link{
+.just a:link, .just a:visited{
     color:blue;
     font-weight: bold;
     text-decoration: none;
