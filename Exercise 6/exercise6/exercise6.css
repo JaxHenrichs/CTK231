@@ -50,3 +50,7 @@ footer {
   grid-column: span 12;
   background-color: #a53763;
 }
+
+#img1{
+  float:left;
+}
