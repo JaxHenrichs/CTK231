@@ -1,0 +1,22 @@
+.wrapper{
+  margin: 1em auto;
+  width: 80%;
+  border: 6px solid rgb(0, 64, 184);
+  background-color: #ffffff;
+}
+
+body{
+    background-color: #797979;
+}
+
+.main{
+    padding: 25px;
+}
+
+.footer{
+    background-color: red;
+    width: 100%;
+    padding: 20px;
+}
+
+
