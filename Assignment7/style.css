@@ -111,5 +111,11 @@ ul{
 }
 
 .doctile{
-    width: 30%;
+    width: 31%;
+    padding-left: 2%;
+        /* background-color: rgb(174, 107, 107); */
+}
+
+.doctile img{
+    width: 95%;
 }
