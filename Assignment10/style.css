@@ -1,0 +1,101 @@
+body {
+  background-color: #0b1822;
+  font-family: Lexend, sans-serif;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: Lexend;
+  src: url("Lexend.ttf");
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  grid-template-rows: 600px; /* This is for the dummy columns, replace or delete */
+  border-radius: 10px;
+}
+
+.nav {
+  background-color: #B6D0E2;
+  grid-column: span 4;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+
+#pic {
+  width: calc(100% - 40px);
+  height: auto;
+  margin: 0 20px 0px 20px;
+  border-radius: 10px;
+}
+
+.nav h1{
+  margin-bottom: -10px;
+}
+
+.nav p{
+margin-bottom: 30px;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.nav li {
+  background-color: #EDF3F8;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.nav li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.nav li:hover {
+  background-color: #D6E4F0;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 0 20px 20px 20px;
+}
+
+.navlinks a {
+  background-color: #EDF3F8;
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navlinks a:hover {
+  background-color: #D6E4F0;
+}
+
+.navlinks img {
+  width: 30px;
+  height: auto;
+}
+
+.main {
+  grid-column: span 8;
+  padding: 24px;
+}
