@@ -18,6 +18,7 @@ body {
   margin: 24px;
   width: 1200px;
   padding: 24px;
+  height: 95%;
   background-color: #ffffff;
   display: grid;
   grid-template-columns: repeat(11, 1fr);
