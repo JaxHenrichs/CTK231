@@ -19,7 +19,7 @@ body {
   margin: 24px;
   width: 1200px;
   padding: 24px;
-  height: 95%;
+  height: 90%;
   background-color: #ffffff;
   display: grid;
   grid-template-columns: repeat(11, 1fr);
@@ -40,6 +40,7 @@ body {
   height: auto;
   margin: 0 20px 0px 20px;
   border-radius: 10px;
+  box-shadow: #0b1822 0px 0px 8px;
 }
 
 .nav h1{
@@ -60,6 +61,7 @@ margin-bottom: 30px;
   background-color: #EDF3F8;
   margin: 20px;
   border-radius: 10px;
+  transition: background-color .5s ease, box-shadow .5s ease;
 }
 
 .nav li a {
@@ -93,6 +95,7 @@ margin-bottom: 30px;
   text-decoration: none;
   color: #333;
   font-size: 1.5em;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 .navlinks a:hover {
@@ -115,19 +118,20 @@ margin-bottom: 30px;
   grid-column: span 4;
   background-color: #EDF3F8;
   padding: 20px;
+  padding-top: 10px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
 }
 
 .project-tile h2 {
-margin: 0;
+margin-bottom: -10px;
 font-size: 1.25em;
 }
 
 .project-tile p {
   line-height: 1.5;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   height: 100px;
 }
 
@@ -136,7 +140,7 @@ font-size: 1.25em;
   height: 400px;
   border-radius: 10px;
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: -15px;
   object-fit: cover;
 }
 
@@ -154,4 +158,5 @@ font-size: 1.25em;
 .SeeMoreButton:hover {
   background-color: #D6E4F0;
   background-color: rgb(255, 255, 255);
+  transition: background-color .5s ease, box-shadow .5s ease;
 }
