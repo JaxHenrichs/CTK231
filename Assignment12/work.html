@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Porfolio Home
+	</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.arrows.css">
+</head>
+<body>
+	<div id="wrapper">
+
+	<div class = "nav">
+	<img src = "signature.png" alt = "Signature of Jaxon Henrichs" id = "pic">
+	<h1> Jaxon Henrichs </h1>
+	<p> User Expereince Designer </p>
+	<ul>
+		<li> <a href = "index.html"> Home </a> </li>
+		<li> <a href = "#"> Work </a> </li>
+		<li> <a href = "#"> Resume </a> </li>
+		<li> <a href = "#"> Contact </a> </li>
+	</ul>
+
+<div class = "navlinks">
+	<a href="https://www.linkedin.com/in/jaxonhenrichs" target="_blank" class="bi bi-github"></a>
+	<a href="https://jaxhenrichs.github.io/CTK231/" target="_blank" class="bi bi-linkedin"></a>
+</div> <!-- navlinks -->
+</div> <!-- nav -->
+	
+<div class = "main">
+  <div class="f-carousel" id="myCarousel" >
+      <div class="f-carousel__slide">
+        <img src="REPO.png" alt="R.E.P.O. Companion App">
+        <p class="carousel-caption">R.E.P.O. Companion App</p>
+      </div>
+      <div class="f-carousel__slide">
+        <img src="RedbirdConnect.png" alt="Redbird Connect">
+        <p class="carousel-caption">Redbird Connect</p>
+      </div>
+      <div class="f-carousel__slide">
+        <img src="zoo.png" alt="Zoo Project">
+        <p class="carousel-caption">Zoo Project</p>
+      </div>
+  </div>
+</div> <!-- main -->
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.umd.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.arrows.umd.js"></script>
+<script>
+  const container = document.getElementById("myCarousel");
+  Carousel(container, { infinite: false }, { Arrows }).init();
+</script>
+
+</div> <!-- wrapper -->
+</body>
+</html>
