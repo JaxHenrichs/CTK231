@@ -111,11 +111,52 @@ margin-bottom: 30px;
 
 .main {
   grid-column: span 8;
-  /* display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap: 24px; */
   max-height: none;
   min-height: 0;
+}
+
+.main form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.main label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: -10px;
+}
+
+.main input[type="email"],
+.main input[type="text"],
+.main textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: 'Lexend', sans-serif;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main button[type="submit"] {
+  background-color: #B6D0E2;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Lexend', sans-serif;
+  font-weight: bold;
+}
+
+.main button[type="submit"]:hover {
+  background-color: #9EC0DA;
 }
 
 .project-tile {
@@ -147,31 +188,6 @@ margin-bottom: -10px;
   object-fit: cover;
 }
 
-.SeeMoreButton {
-  display: inline-block;
-  background-color: #B6D0E2;
-  text-decoration: none;
-  padding: 10px;
-  border-radius: 10px;
-  font-weight: bold;
-  font-size: 0.9em;
-  color: black;
-  position: relative;
-  z-index: 10;
-}
-
-.SeeMoreButton:hover {
-  background-color: #D6E4F0;
-  background-color: rgb(255, 255, 255);
-}
-
-#resumetitle {
+#contacttitle {
   margin-bottom: -10px;
-}
-
-#pdf{
-  border-radius: 10px;
-  background-color: white;
-  color: white;
-  height: 82%;
 }
