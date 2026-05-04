@@ -170,6 +170,7 @@ margin-bottom: -10px;
 }
 
 #pdf{
+  margin-top: 10px;
   border-radius: 10px;
   background-color: #B6D0E2;
   color: white;
